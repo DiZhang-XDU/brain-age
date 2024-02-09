@@ -1,0 +1,72 @@
+# client: GTX1080TI * 2
+# basic
+experiment: "holdout_merge"
+task: 5min
+
+dataset: ["HPAP1"]
+freq: 128
+CUDA_VISIBLE_DEVICES: "0"
+
+# nets
+HYP_NET: cnn
+HYP_EPOCH: 1260
+EEG_NET: swin
+HEAD: merge
+SWIN:
+  # macro
+  IN_LEN: 38400
+  IN_CHANS: 3
+  OUT_CHANS: 10
+  PATCH_SIZE: 5
+  EMBED_DIM: 48
+  DEPTHS: [ 2, 2, 2, 2]
+  NUM_HEADS: [ 4, 4, 4, 4]
+  WINDOW_SIZE: 15
+  MLP_RATIO: 2.
+  # micro
+  QKV_BIAS: true
+  QK_SCALE: null
+  APE: false
+  PATCH_NORM: true
+  DROP_RATE: 0.0
+  DROP_PATH_RATE: 0.2
+
+# path
+path: 
+  weights: "weights"
+  tblogs: "logs"
+  log: "log.txt"
+redir_root: ["G:/data/filtered_data_128/subjects", "E:/data/filtered_data_128/subjects"]
+redir_cache: null
+
+# utils
+USE_CHECKPOINT: false
+resume: false
+resume_ckp: "./experiments/shhs_benchmark/weights/checkpoint"
+train_parallel: false
+train_thread: 4
+eval_parallel: false
+eval_thread: 4
+
+# training params
+EPOCH_MAX: 40
+EPOCH_STEP: 8000
+BATCH_SIZE: 64
+lr: 1.e-3
+weight_decay: 0.05
+scheduler: >-
+    schedulers.cosine_lr.CosineLRScheduler(
+    optim,  t_initial = cfg.EPOCH_MAX * cfg.EPOCH_STEP, 
+    lr_min = 1e-6,  warmup_lr_init = 1e-6,  warmup_t = 0.1 * cfg.EPOCH_STEP, 
+    cycle_limit = 1,  t_in_epochs=False, )
+optimizer: >-
+    torch.optim.AdamW(
+    model.parameters(), eps = 1e-8, lr = cfg.lr, betas = [0.9, 0.999],
+    weight_decay = cfg.weight_decay)
+# labelSmooth, softTarget, CE, tinyCE
+criterion: DecadeCE
+
+# test params
+tvt: all
+best_ckp: "experiments/swin_merge/weights/best_checkpoint"
+post_ckp: "experiments/swin_merge/weights/post_checkpoint"

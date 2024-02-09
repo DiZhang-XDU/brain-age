@@ -1,0 +1,1 @@
+epoch 49: Valid MAE=4.56

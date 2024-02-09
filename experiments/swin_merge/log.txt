@@ -1,0 +1,80 @@
+epoch:00, time:2405.181951
+Trn Loss:0.2998, mae:10.09  Val Loss:0.2880, mae:11.14
+epoch:01, time:2388.530133
+Trn Loss:0.2632, mae:8.35  Val Loss:0.2670, mae:8.95
+epoch:02, time:2391.507414
+Trn Loss:0.2521, mae:7.63  Val Loss:0.2617, mae:8.45
+epoch:03, time:2387.626211
+Trn Loss:0.2488, mae:7.40  Val Loss:0.2558, mae:8.18
+epoch:04, time:2388.751706
+Trn Loss:0.2471, mae:7.29  Val Loss:0.2520, mae:7.81
+epoch:05, time:2384.918948
+Trn Loss:0.2457, mae:7.20  Val Loss:0.2505, mae:7.62
+epoch:06, time:2383.367761
+Trn Loss:0.2448, mae:7.13  Val Loss:0.2510, mae:7.58
+epoch:07, time:2388.889208
+Trn Loss:0.2440, mae:7.07  Val Loss:0.2481, mae:7.47
+epoch:08, time:2386.074861
+Trn Loss:0.2429, mae:7.00  Val Loss:0.2606, mae:8.29
+epoch:09, time:2385.782085
+Trn Loss:0.2425, mae:6.97  Val Loss:0.2574, mae:7.93
+epoch:10, time:2384.354190
+Trn Loss:0.2418, mae:6.92  Val Loss:0.2481, mae:7.58
+epoch:11, time:2385.996663
+Trn Loss:0.2411, mae:6.87  Val Loss:0.2443, mae:7.16
+epoch:12, time:2389.283176
+Trn Loss:0.2405, mae:6.84  Val Loss:0.2451, mae:7.27
+epoch:13, time:2380.898406
+Trn Loss:0.2401, mae:6.82  Val Loss:0.2498, mae:7.59
+epoch:14, time:2373.241414
+Trn Loss:0.2396, mae:6.77  Val Loss:0.2432, mae:7.17
+epoch:15, time:2379.133890
+Trn Loss:0.2389, mae:6.74  Val Loss:0.2427, mae:7.11
+epoch:16, time:2372.754581
+Trn Loss:0.2385, mae:6.71  Val Loss:0.2427, mae:6.99
+epoch:17, time:2387.718958
+Trn Loss:0.2383, mae:6.69  Val Loss:0.2428, mae:7.08
+epoch:18, time:2390.203364
+Trn Loss:0.2374, mae:6.64  Val Loss:0.2418, mae:7.07
+epoch:19, time:2382.217831
+Trn Loss:0.2371, mae:6.62  Val Loss:0.2418, mae:6.97
+epoch:20, time:2372.837064
+Trn Loss:0.2362, mae:6.56  Val Loss:0.2416, mae:7.01
+epoch:21, time:2393.416379
+Trn Loss:0.2358, mae:6.53  Val Loss:0.2426, mae:6.96
+epoch:22, time:2393.523603
+Trn Loss:0.2353, mae:6.51  Val Loss:0.2400, mae:6.87
+epoch:23, time:2394.906258
+Trn Loss:0.2349, mae:6.48  Val Loss:0.2366, mae:6.65
+epoch:24, time:2400.769351
+Trn Loss:0.2339, mae:6.42  Val Loss:0.2372, mae:6.73
+epoch:25, time:2397.787956
+Trn Loss:0.2336, mae:6.39  Val Loss:0.2381, mae:6.74
+epoch:26, time:2387.340169
+Trn Loss:0.2330, mae:6.36  Val Loss:0.2374, mae:6.67
+epoch:27, time:2392.870124
+Trn Loss:0.2323, mae:6.32  Val Loss:0.2335, mae:6.42
+epoch:28, time:2394.347920
+Trn Loss:0.2316, mae:6.27  Val Loss:0.2342, mae:6.51
+epoch:29, time:2395.793132
+Trn Loss:0.2310, mae:6.24  Val Loss:0.2344, mae:6.53
+epoch:30, time:2389.520840
+Trn Loss:0.2303, mae:6.19  Val Loss:0.2342, mae:6.51
+epoch:31, time:2392.923907
+Trn Loss:0.2295, mae:6.15  Val Loss:0.2316, mae:6.28
+epoch:32, time:2397.641314
+Trn Loss:0.2287, mae:6.10  Val Loss:0.2314, mae:6.30
+epoch:33, time:2391.794154
+Trn Loss:0.2278, mae:6.04  Val Loss:0.2327, mae:6.39
+epoch:34, time:2393.678258
+Trn Loss:0.2270, mae:6.00  Val Loss:0.2288, mae:6.19
+epoch:35, time:2390.608347
+Trn Loss:0.2263, mae:5.96  Val Loss:0.2305, mae:6.26
+epoch:36, time:2406.022012
+Trn Loss:0.2256, mae:5.92  Val Loss:0.2289, mae:6.17
+epoch:37, time:2395.390132
+Trn Loss:0.2249, mae:5.87  Val Loss:0.2282, mae:6.14
+epoch:38, time:2377.679344
+Trn Loss:0.2245, mae:5.85  Val Loss:0.2276, mae:6.11
+epoch:39, time:2382.382354
+Trn Loss:0.2244, mae:5.84  Val Loss:0.2272, mae:6.08
