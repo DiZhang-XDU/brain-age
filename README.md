@@ -1,3 +1,7 @@
+
+Brain age estimation from overnight electroencephalography with multi-flow sequence learning 
+
+
 Usage:
 
 1. Adjust the _edf path_, _dataset_, and _psgID_ in the cfg of onekey_estimate_edf.py.
@@ -14,11 +18,6 @@ Example Output:
 	CA = 52.0yr
 	BA_5min = 47.4±3.8yr
 	BA = 48.8yr
-
-
-Citation:
-(article under review)
-Brain age estimation from overnight electroencephalography with multi-flow sequence learning 
 
 
 
