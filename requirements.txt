@@ -1,0 +1,11 @@
+matplotlib==3.7.1
+numpy==1.23.5
+plot_data==0.24.0
+PyYAML==6.0
+PyYAML==6.0.1
+scikit_learn==1.2.2
+tensorboardX==2.2
+tensorboardX==2.6.2.2
+timm==0.6.13
+torch==2.0.0
+tqdm==4.65.0

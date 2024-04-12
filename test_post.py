@@ -127,7 +127,7 @@ def tester_post(cfg):
 
 
 if __name__ == "__main__":
-    yaml_path = r'experiments\holdout_hyp\config.yaml'
+    yaml_path = r'experiments\swin_merge\config.yaml'
 
     yh = YamlHandler(yaml_path) 
     cfg = yh.read_yaml()

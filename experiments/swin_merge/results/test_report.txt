@@ -1,0 +1,4 @@
+Task:swin_merge
+Test Time:743.05s
+Global...
+TEST: MAE = 5.496, std = 5.215, R = 0.93
